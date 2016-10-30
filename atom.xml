@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://henryhoo.github.io/"/>
-  <updated>2016-10-29T14:36:31.000Z</updated>
+  <updated>2016-10-29T15:37:31.000Z</updated>
   <id>http://henryhoo.github.io/</id>
   
   <author>
@@ -20,16 +20,23 @@
     <link href="http://henryhoo.github.io/2016/10/29/Ask-right-qiestions-for-coding-problem/"/>
     <id>http://henryhoo.github.io/2016/10/29/Ask-right-qiestions-for-coding-problem/</id>
     <published>2016-10-29T14:34:55.000Z</published>
-    <updated>2016-10-29T14:36:31.000Z</updated>
+    <updated>2016-10-29T15:37:31.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><h2 id="String"><a href="#String" class="headerlink" title="String"></a>String</h2><ul>
+    <content type="html"><![CDATA[<p>For a technical interview, it is always better for you to clarify few things before directly jump into coding part. Here is some of the common questions I summarized, I will keep update those questions and welcome anyone who wants to help. Please submit a pull request in this <a href="https://github.com/henryhoo/henryhoo.github.io" target="_blank" rel="external">repo</a>. (on branch source, source/_posts/Ask-right-qiestions-for-coding-problem.m) Current question is based on JAVA.</p>
+<h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><ul>
+<li>Empty?</li>
+<li>Input/Output form?</li>
+</ul>
+<h2 id="String"><a href="#String" class="headerlink" title="String"></a>String</h2><ul>
 <li>Only Lower cases or Upper cases?</li>
+<li>Any blank in it? What is maximum length? trim()?</li>
+<li>Only alphabet or have special characters?</li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;General&quot;&gt;&lt;a href=&quot;#General&quot; class=&quot;headerlink&quot; title=&quot;General&quot;&gt;&lt;/a&gt;General&lt;/h2&gt;&lt;h2 id=&quot;String&quot;&gt;&lt;a href=&quot;#String&quot; class=&quot;headerlink&quot; 
+      &lt;p&gt;For a technical interview, it is always better for you to clarify few things before directly jump into coding part. Here is some of the c
     
     </summary>
     
@@ -68,25 +75,21 @@
     <link href="http://henryhoo.github.io/2016/09/12/JAVA/"/>
     <id>http://henryhoo.github.io/2016/09/12/JAVA/</id>
     <published>2016-09-12T14:16:42.000Z</published>
-    <updated>2016-09-15T02:30:23.000Z</updated>
+    <updated>2016-10-29T16:00:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>##Both HashTable and HashMap implements Map interface.</p>
-<p>##Hashtable</p>
-<p>Hashtable is basically a data structure to retain values of key-value pair.</p>
+<h2 id="Hashtable"><a href="#Hashtable" class="headerlink" title="Hashtable"></a>Hashtable</h2><p>Hashtable is basically a data structure to retain values of key-value pair.</p>
 <p>It does not allow null for both key and value. It will throw NullPointerException.<br>Hashtable does not maintain insertion order. The order is defined by the Hash function. So only use this if you do not need data in order.<br>It is synchronized. It is slow. Only one thread can access in one time.<br>HashTable rea thread safe.<br>HashTable uses Enumerator to iterate through elements.</p>
-<p>##HashMap</p>
-<p>Like Hashtable it also accepts key value pair.</p>
+<h2 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h2><p>Like Hashtable it also accepts key value pair.</p>
 <p>It allows null for both key and value.<br>HashMap does not maintain insertion order. The order is defined by the Hash function.<br>It is not synchronized. It will have better performance.<br>HashMap are not thread safe, but you can use Collections.synchronizedMap(new HashMap<k,v>())</k,v></p>
-<p>##HashSet</p>
-<p>HashSet does not allow duplicate values.</p>
+<h2 id="HashSet"><a href="#HashSet" class="headerlink" title="HashSet"></a>HashSet</h2><p>HashSet does not allow duplicate values.</p>
 <p>It provides add method rather put method.<br>You also use its contain method to check whether the object is already available in HashSet. HashSet can be used where you want to maintain a unique list.</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;##Both HashTable and HashMap implements Map interface.&lt;/p&gt;
-&lt;p&gt;##Hashtable&lt;/p&gt;
-&lt;p&gt;Hashtable is basically a data structure to retain values
+&lt;h2 id=&quot;Hashtable&quot;&gt;&lt;a href=&quot;#Hashtable&quot; class=&quot;headerlink&quot; title=&quot;Hashtable&quot;&gt;&lt;
     
     </summary>
     
